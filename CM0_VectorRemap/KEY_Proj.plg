@@ -1,0 +1,11 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+U:\LPC11C14_Board\CM0_VectorRemap\KEY_Proj.uvproj
+Project File Date:  06/03/2018
+
+<h2>Output:</h2>
+Clean started: Project: 'KEY_Proj'
+   deleting intermediate output files for target 'Target 1'

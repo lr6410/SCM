@@ -1,0 +1,31 @@
+
+T1ED8 000:041 SEGGER J-Link V4.68a Log File (0000ms, 0041ms total)
+T1ED8 000:041 DLL Compiled: Apr 12 2013 13:26:50 (0000ms, 0041ms total)
+T1ED8 000:041 Logging started @ 2018-06-09 20:12 (0000ms, 0041ms total)
+T1ED8 000:041 JLINK_SetWarnOutHandler(...) (0000ms, 0041ms total)
+T1ED8 000:041 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N: 20080643
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0023ms, 0064ms total)
+T1ED8 000:064 JLINK_SetErrorOutHandler(...) (0000ms, 0064ms total)
+T1ED8 000:064 JLINK_ExecCommand("ProjectFile = "U:\LPC11C14_Board\VectorNew\JLinkSettings.ini"", ...)  returns 0x00 (0010ms, 0074ms total)
+T1ED8 000:075 JLINK_ExecCommand("Device = LPC1114/302", ...)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0000ms, 0000ms total)
+              Device "LPC1114/302" selected (32 KB flash, 8 KB RAM).  returns 0x00 (0001ms, 0075ms total)
+T1ED8 000:076 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0000ms, 0075ms total)
+T1ED8 000:076 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0075ms total)
+T1ED8 000:076 JLINK_GetDLLVersion()  returns 46801 (0000ms, 0075ms total)
+T1ED8 000:076 JLINK_GetFirmwareString(...) (0000ms, 0075ms total)
+T1ED8 000:077 JLINK_GetDLLVersion()  returns 46801 (0000ms, 0075ms total)
+T1ED8 000:077 JLINK_GetCompileDateTime() (0000ms, 0075ms total)
+T1ED8 000:080 JLINK_GetFirmwareString(...) (0000ms, 0075ms total)
+T1ED8 000:082 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0075ms total)
+T1ED8 000:086 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0005ms, 0080ms total)
+T1ED8 000:091 JLINK_SetSpeed(2000) (0001ms, 0081ms total)
+T1ED8 000:092 JLINK_GetId()
+  ***** Error: Supply voltage too low (1 Volt is required, Measured: 0.0 Volt).
+Please check target power.  returns 0x00000000 (0103ms, 0184ms total)
+T1ED8 001:252 JLINK_Close() (0009ms, 0193ms total)
+T1ED8 001:261 JLINK_Close() (0000ms, 0193ms total)
+T1ED8 001:262 JLINK_Close() (0000ms, 0193ms total)
